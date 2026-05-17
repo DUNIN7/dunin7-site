@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
+  <!-- DUNIN7 favicon v0.1
+       Axiom Seven mark — continental 7 with cobalt crossbar.
+       Bone drafting ground (DUNIN7's own paper, distinct from Loomworks's cartridge).
+       Carbon 7 + cobalt blueprint accent.
+       Path-based — no font dependency, renders identically across all browsers. -->
+  <rect width="32" height="32" rx="5" fill="#F0EEE7"/>
+  <path d="M 6,7 L 26,7 L 14,27 L 10,27 L 22,11 L 6,11 Z" fill="#14141A"/>
+  <rect x="13" y="16" width="9" height="3" fill="#1F3F8C"/>
+</svg>
