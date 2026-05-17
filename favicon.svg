@@ -1,22 +1,26 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
-  <!-- DUNIN7 favicon v0.3
-       The "7" character set in IBM Plex Serif 600 — the same face and weight
-       as the deployed dunin7.com wordmark.
+  <!-- DUNIN7 favicon v0.4
+       The "7" character set in IBM Plex Serif 600 — same face and structure as v0.3,
+       but rendered in cobalt #1F3F8C instead of neutral near-black.
        
-       Falls back to Source Serif Pro → Georgia → Times → generic serif when
-       Plex Serif isn't OS-installed (most user systems). All fallbacks render
-       a serif numeral 7 with similar proportions to Plex Serif's 7, so the
-       favicon stays serif-family even on systems without the primary face.
+       Cobalt variant of the shared "7" mark — paired with doneinseven.com's black
+       variant (doneinseven-favicon-v0_1.svg) so the two surfaces are visually
+       distinguishable at favicon scale (16-32px) where shape alone is too small to
+       differentiate.
        
-       Warm white ground (#FAF9F7) matches the deployed page background.
-       Neutral near-black (#1A1A1A) matches the deployed wordmark color.
-       No accent — the deployed wordmark uses none; the favicon as a 
-       distillation of the wordmark follows the same discipline. -->
+       Warm white ground (#FAF9F7) preserved.
+       Plex Serif fallback chain preserved.
+       
+       Brand-guide-implication. v0.2 of the brand guide says the favicon mirrors the
+       wordmark (no accent). v0.4 of the favicon introduces cobalt accent for tab-scale
+       differentiation against doneinseven. Brand guide v0.3 absorbs this: the favicon
+       is the wordmark's "7" *with* a distinguishing tint when paired with another
+       brand-family surface. -->
   <rect width="32" height="32" rx="5" fill="#FAF9F7"/>
   <text x="16" y="25" 
         text-anchor="middle"
         font-family="'IBM Plex Serif', 'Source Serif Pro', Georgia, 'Times New Roman', serif"
         font-size="26"
         font-weight="600"
-        fill="#1A1A1A">7</text>
+        fill="#1F3F8C">7</text>
 </svg>
